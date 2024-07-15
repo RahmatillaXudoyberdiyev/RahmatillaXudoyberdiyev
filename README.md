@@ -1,3 +1,4 @@
+[![GitHub Streak](https://streak-stats.demolab.com/?user=RahmatillaXudoyberdiyev&theme=dark)](https://git.io/streak-stats)
 # Hi there, I'm Rahmatilla 👋
 
 I'm a Data Scientist and Machine Learning Engineer with a passion for turning data into actionable insights. I'm currently open for work and excited to tackle new challenges.
