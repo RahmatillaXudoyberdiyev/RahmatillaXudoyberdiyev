@@ -32,23 +32,29 @@ To bring these systems into production, I develop dependable backend services an
 <p align="center"><a href="https://suniyintellekt.uz"><img src="assets/emris_ai.png" alt="Emris AI" width="520" /></a></p>
 
 #### 🤖 [Samarqand Invest Kompaniyasi](https://www.saminvestcompany.uz/uz) — Website `Active`
+* Built a responsive full-stack web application using Next.js and Nest.js, featuring 4-language localization (Uzbek Latin/Cyrillic, Russian, English) and accessible theme controls with high-contrast modes and font resizing.
+* Developed an interactive construction fee calculator integrated with Yandex Maps, allowing users to pick map coordinates to automatically calculate regional zoning fees and volume deductions in real time.
+* Engineered modular Nest.js REST APIs with robust request validation, caching, and rate limiting to keep inquiry endpoints secure and deliver sub-100ms response times.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Nest.js](https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 
 <p align="center"><a href="https://www.saminvestcompany.uz/uz"><img src="assets/samarqand_invest_kompaniyasi.png" alt="Samarqand Invest Kompaniyasi" width="520" /></a></p>
 
-#### 🤖 [Pancrease Segmentation](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) — Image Segmentation `Active`
+#### 🤖 [Pancreas Segmentation](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) — Image Segmentation `Active`
+* Engineered an automated medical imaging pipeline with OpenCV and NumPy to clean, normalize, and augment 6,800+ abdominal CT slice-mask pairs, eliminating blank slices and caching standardized tensors to maximize training throughput.
+* Developed a ResUNet deep learning segmentation architecture integrated with an EfficientNet-B0 backbone, utilizing a custom hybrid BCE-Dice loss function to tackle extreme foreground-background class imbalance.
+* Achieved a 0.824 Mean Dice score and 0.720 Mean IoU on unseen test CT volumes, calibrating an optimal 0.30 decision threshold to reach a 90th-percentile Dice coefficient of 0.923 for robust pancreas boundary delineation.
 
 ![Image Segmentation](https://img.shields.io/badge/Computer_Vision-Image_Segmentation-5C3EE8?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 
-<p align="center"><a href="https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation"><img src="assets/pancrease_segmentation.png" alt="Pancrease Segmentation" width="520" /></a></p>
+<p align="center"><a href="https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation"><img src="assets/pancreas_segmentation.png" alt="Pancreas Segmentation" width="520" /></a></p>
 
 ---
 
 ### 🛠️ Tech Stack & Skills
 
 **Agentic AI Workflow**  
-![Agentic AI Workflows](https://img.shields.io/badge/Agentic_AI-Multi--Agent_Orchestration-blueviolet?style=flat-square) ![Multi-Agent Orchestration](https://img.shields.io/badge/Orchestration-Multi--Agent-8A2BE2?style=flat-square) ![Reflection & Self-Correction](https://img.shields.io/badge/Reflection-Self--Correction-4B0082?style=flat-square) ![Tool Use & Function Calling](https://img.shields.io/badge/Tools-Function_Calling-6A0DAD?style=flat-square) ![Task Planning & Decomposition](https://img.shields.io/badge/Planning-Decomposition-7B1FA2?style=flat-square) ![Multi-LLM Routing (Gemini & Groq & Cloudflare)](https://img.shields.io/badge/LLM_Routing-Gemini_|_Groq_|_Cloudflare-orange?style=flat-square) ![Local-First Architecture](https://img.shields.io/badge/Architecture-Local--First-00897B?style=flat-square) ![WebAssembly Sandboxing](https://img.shields.io/badge/Sandbox-WebAssembly_WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Agentic AI Workflows](https://img.shields.io/badge/Agentic_AI-Multi--Agent_Orchestration-blueviolet?style=flat-square) ![Multi-Agent Orchestration](https://img.shields.io/badge/Orchestration-Multi--Agent-8A2BE2?style=flat-square) ![Reflection & Self-Correction](https://img.shields.io/badge/Reflection-Self--Correction-4B0082?style=flat-square) ![Tool Use & Function Calling](https://img.shields.io/badge/Tools-Function_Calling-6A0DAD?style=flat-square) ![Task Planning & Decomposition](https://img.shields.io/badge/Planning-Decomposition-7B1FA2?style=flat-square) ![Multi-LLM Routing (Gemini & Groq & Cloudflare)](https://img.shields.io/badge/LLM_Routing-Gemini_|_Groq_|_Cloudflare-orange?style=flat-square) ![Local-First Architecture](https://img.shields.io/badge/Architecture-Local--First-00897B?style=flat-square)
 
 **Machine Learning & Deep Learning**  
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
