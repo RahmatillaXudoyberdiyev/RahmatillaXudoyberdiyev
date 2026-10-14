@@ -87,8 +87,8 @@ I engineer production AI systems and agentic workflows, focusing on autonomous p
 ### 📈 GitHub & Activity Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RahmatillaXudoyberdiyev&show_icons=true&theme=radical&rank_icon=github" alt="Rahmatilla's GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahmatillaXudoyberdiyev&layout=compact&theme=radical" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=RahmatillaXudoyberdiyev&show_icons=true&theme=radical&rank_icon=github" alt="Rahmatilla's GitHub stats" height="165" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=RahmatillaXudoyberdiyev&layout=compact&theme=radical" alt="Top Languages" height="165" />
 </div>
 
 ---
