@@ -92,6 +92,17 @@ def download_preview_image(image_relative_url, project_title, target_dir):
             with open(local_path, "wb") as f:
                 f.write(response.read())
         print(f"Saved preview image to {local_path}.")
+        try:
+            from PIL import Image
+            with Image.open(local_path) as im:
+                if im.width > 1000:
+                    ratio = 1000.0 / float(im.width)
+                    new_height = int(float(im.height) * ratio)
+                    im_resized = im.resize((1000, new_height), Image.Resampling.LANCZOS)
+                    im_resized.save(local_path, "PNG", optimize=True)
+                    print(f"Optimized image for '{project_title}' to 1000x{new_height}.")
+        except Exception as resize_err:
+            print(f"Image resize skipped: {resize_err}")
         return repo_relative_path
     except Exception as e:
         print(f"Failed to download image for '{project_title}': {e}. Using remote URL.", file=sys.stderr)
@@ -168,9 +179,9 @@ def generate_projects(projects, assets_dir):
             image_src = download_preview_image(preview_img, title, assets_dir)
             lines.append("")
             if link:
-                lines.append(f'<a href="{link}"><img src="{image_src}" alt="{title}" width="100%" /></a>')
+                lines.append(f'<p align="center"><a href="{link}"><img src="{image_src}" alt="{title}" width="520" /></a></p>')
             else:
-                lines.append(f'<img src="{image_src}" alt="{title}" width="100%" />')
+                lines.append(f'<p align="center"><img src="{image_src}" alt="{title}" width="520" /></p>')
         lines.append("")
 
     if remaining_projects:

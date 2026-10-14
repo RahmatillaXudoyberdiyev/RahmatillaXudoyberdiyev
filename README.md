@@ -29,19 +29,19 @@ To bring these systems into production, I develop dependable backend services an
 
 ![Agentic AI Workflows](https://img.shields.io/badge/Agentic_AI-Multi--Agent_Orchestration-blueviolet?style=flat-square) ![Multi-Agent Orchestration](https://img.shields.io/badge/Orchestration-Multi--Agent-8A2BE2?style=flat-square) ![Reflection & Self-Correction](https://img.shields.io/badge/Reflection-Self--Correction-4B0082?style=flat-square) ![Tool Use & Function Calling](https://img.shields.io/badge/Tools-Function_Calling-6A0DAD?style=flat-square) ![Task Planning & Decomposition](https://img.shields.io/badge/Planning-Decomposition-7B1FA2?style=flat-square) ![Multi-LLM Routing](https://img.shields.io/badge/LLM_Routing-Gemini_|_Groq_|_Cloudflare-orange?style=flat-square) ![Local-First Architecture](https://img.shields.io/badge/Architecture-Local--First-00897B?style=flat-square) ![Python & Flask](https://img.shields.io/badge/Python___Flask-374151?style=flat-square) ![Server-Sent Events (SSE)](https://img.shields.io/badge/Server_Sent_Events__SSE_-374151?style=flat-square)
 
-<a href="https://suniyintellekt.uz"><img src="assets/emris_ai.png" alt="Emris AI" width="100%" /></a>
+<p align="center"><a href="https://suniyintellekt.uz"><img src="assets/emris_ai.png" alt="Emris AI" width="520" /></a></p>
 
 #### 🤖 [Samarqand Invest Kompaniyasi](https://www.saminvestcompany.uz/uz) — Website `Active`
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Nest.js](https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 
-<a href="https://www.saminvestcompany.uz/uz"><img src="assets/samarqand_invest_kompaniyasi.png" alt="Samarqand Invest Kompaniyasi" width="100%" /></a>
+<p align="center"><a href="https://www.saminvestcompany.uz/uz"><img src="assets/samarqand_invest_kompaniyasi.png" alt="Samarqand Invest Kompaniyasi" width="520" /></a></p>
 
 #### 🤖 [Pancrease Segmentation](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) — Image Segmentation `Active`
 
 ![Image Segmentation](https://img.shields.io/badge/Computer_Vision-Image_Segmentation-5C3EE8?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 
-<a href="https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation"><img src="assets/pancrease_segmentation.png" alt="Pancrease Segmentation" width="100%" /></a>
+<p align="center"><a href="https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation"><img src="assets/pancrease_segmentation.png" alt="Pancrease Segmentation" width="520" /></a></p>
 
 ---
 
