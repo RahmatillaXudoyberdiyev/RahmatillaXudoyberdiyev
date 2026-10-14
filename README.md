@@ -59,39 +59,31 @@ I engineer production AI systems and agentic workflows, focusing on autonomous p
 ### 🌟 Featured Projects
 
 #### 🤖 [Emris AI](https://suniyintellekt.uz) — Autonomous Agentic Coding Platform `v1.9 BETA`
-* Decomposes complex user prompts into step-by-step milestones, generates full-stack code, and implements automated reflection to self-correct bugs before delivery[cite: 1].
-* Features an in-browser WebAssembly code sandbox (Python & Node.js) with real-time Server-Sent Events (SSE) streaming[cite: 1].
-* Resilient multi-LLM fallback routing across Google Gemini, Groq, and Cloudflare AI[cite: 1].
-* Privacy-first local storage architecture synchronizing generated project trees directly to the client browser without external storage requirements[cite: 1].
+* Decomposes complex user prompts into step-by-step milestones, generates full-stack code, and implements automated reflection to self-correct bugs before delivery.
+* Features an in-browser WebAssembly code sandbox (Python & Node.js) with real-time Server-Sent Events (SSE) streaming.
+* Resilient multi-LLM fallback routing across Google Gemini, Groq, and Cloudflare AI.
+* Privacy-first local storage architecture synchronizing generated project trees directly to the client browser without external storage requirements.
 
 #### 👁️ [Pancreas Segmentation](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) — Medical Computer Vision
-* Deep learning image segmentation pipeline targeting abdominal CT scans[cite: 1].
-* Implemented using **TensorFlow** and **OpenCV** with specialized preprocessing and masking workflows[cite: 1].
+* Deep learning image segmentation pipeline targeting abdominal CT scans.
+* Implemented using **TensorFlow** and **OpenCV** with specialized preprocessing and masking workflows.
 
 #### 🌐 [Samarqand Invest Kompaniyasi](https://www.saminvestcompany.uz/uz) — Enterprise Portal
-* High-performance institutional platform built with **Next.js** and **Nest.js**[cite: 1].
+* High-performance institutional platform built with **Next.js** and **Nest.js**.
 
 ---
 
 ### 📜 Verified Credentials & Certifications
 
-* **Build RAG Applications: Get Started** — IBM (Oct 2026)[cite: 1]
-* **Develop Generative AI Applications: Get Started** — IBM (Oct 2026)[cite: 1]
-* **Agentic AI** — DeepLearning.AI (Oct 2026)[cite: 1]
-* **Introduction to Generative AI** — Google Cloud (Feb 2026)[cite: 1]
-* **Sun'iy intellekt – NLP (Nutq bilan ishlash)** — Mohirdev[cite: 1]
-* **IELTS Academic:** 7.0 (C1 English)[cite: 1]
+* **Build RAG Applications: Get Started** — IBM (Oct 2026)
+* **Develop Generative AI Applications: Get Started** — IBM (Oct 2026)
+* **Agentic AI** — DeepLearning.AI (Oct 2026)
+* **Introduction to Generative AI** — Google Cloud (Feb 2026)
+* **Sun'iy intellekt – NLP (Nutq bilan ishlash)** — Mohirdev
+* **IELTS Academic:** 7.0 (C1 English)
 
 ---
 
-### 📈 GitHub & Activity Stats
-
-<div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=RahmatillaXudoyberdiyev&show_icons=true&theme=radical&rank_icon=github" alt="Rahmatilla's GitHub stats" height="165" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=RahmatillaXudoyberdiyev&layout=compact&theme=radical" alt="Top Languages" height="165" />
-</div>
-
----
 
 <div align="center">
   <sub>Let's connect: <a href="https://t.me/rahmatilla_uz">@rahmatilla_uz</a> • <a href="https://www.linkedin.com/in/rahmatilla-xudoyberdiyev">LinkedIn</a> • <a href="https://www.rahmatilla.uz">rahmatilla.uz</a></sub>
