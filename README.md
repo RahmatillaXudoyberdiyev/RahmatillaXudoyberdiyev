@@ -95,13 +95,14 @@ _Jul 2025 - Jan 2026 · 7 mos · Part-time · On-site · Yangihayot, Tashkent, U
 
 ### 📜 Verified Credentials & Certifications
 
+* **[Vector Databases for RAG: An Introduction](https://www.coursera.org/account/accomplishments/verify/K0XP0861CF0Q)** — IBM (Oct 2026)
 * **[Build RAG Applications: Get Started](https://www.coursera.org/account/accomplishments/verify/LDT1J1MXIOXD)** — IBM (Oct 2026)
 * **[Develop Generative AI Applications: Get Started](https://www.coursera.org/account/accomplishments/verify/9JLE0OUMAI56)** — IBM (Oct 2026)
-* **[Agentic AI](https://coursera.org/verify/0NOCIWLGSQNE)** — DeepLearning.AI (Oct 2026)
 
 <details>
-<summary><b>📜 More Certifications (3)</b></summary>
+<summary><b>📜 More Certifications (4)</b></summary>
 
+* [Agentic AI](https://coursera.org/verify/0NOCIWLGSQNE) — DeepLearning.AI (Oct 2026)
 * [Sun'iy intellekt – NLP (nutq bilan ishlash)](https://mohirdev.uz/certificate/prac-e2261a41) — Mohirdev (Oct 2023)
 * [Introduction to Generative AI](https://www.coursera.org/account/accomplishments/verify/L55EN5Q3M1Y4) — Google Cloud (Feb 2026)
 * [IELTS - 7.0](https://www.rahmatilla.uz/api/media/view?pathname=UZ00424504916-22-12-2024-ETRF-1791637462800-cjj9pke-LVrAkIvrXTbF5qUd7Jq1R4MhPqhZax.pdf) — IELTS IDP in Uzbekistan (Dec 2024)
