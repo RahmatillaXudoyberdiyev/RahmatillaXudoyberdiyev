@@ -405,8 +405,10 @@ def generate_publications(publications_data):
         if not target_url and pdf_url:
             target_url = f"{BASE_URL}{pdf_url}" if pdf_url.startswith("/") else pdf_url
 
-        title_md = f"**[{title}]({target_url})**" if target_url else f"**{title}**"
-        lines.append(f"* 📄 {title_md}")
+        if target_url:
+            lines.append(f"#### 📄 [{title}]({target_url})")
+        else:
+            lines.append(f"#### 📄 {title}")
 
         meta = []
         if authors:
@@ -416,17 +418,17 @@ def generate_publications(publications_data):
         if year:
             meta.append(f"`{year}`")
         if meta:
-            lines.append("  " + " · ".join(meta) + "  ")
+            lines.append(" · ".join(meta) + "  ")
 
         if abstract:
             clean_abstract = " ".join(abstract.split())
-            if len(clean_abstract) > 150:
-                clean_abstract = clean_abstract[:150].rstrip(" .,;") + "..."
-            lines.append(f"  > {clean_abstract}")
+            if len(clean_abstract) > 160:
+                clean_abstract = clean_abstract[:160].rstrip(" .,;") + "..."
+            lines.append(f"> {clean_abstract}\n")
 
         if skills:
-            badge_list = [get_badge(s) for s in skills[:3]]
-            lines.append("  " + " ".join(badge_list))
+            badge_list = [get_badge(s) for s in skills]
+            lines.append(" ".join(badge_list) + "  ")
 
         lines.append("")
 
