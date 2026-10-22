@@ -93,72 +93,6 @@ _Jul 2025 - Jan 2026 · 7 mos · Part-time · On-site · Yangihayot, Tashkent, U
 
 ---
 
-### 📚 Publications & Research
-
-#### 📄 [AN ALGORITHM FOR DETECTING AND REMOVING MIXED NOISE IN DIGITAL IMAGES OF AGRICULTURAL CROPS AND IRRIGATION AREAS BASED ON ADAPTIVE MATHEMATICAL FILTERS](https://phoenixpublication.net/index.php/YRIF/article/view/8939)
-_Rahimjon Qodirov, Rahmatilla Khudoyberdiyev_ · **XXV - Yosh olimlar, magistrantlar va iqtidorli talabalarning ilmiy-amaliy anjumani: "Qishloq va suv xo'jaligining zamonaviy muammolari"** · `2026`  
-> This article discusses the problem of detecting and removing mixed noise in digital images of agricultural crops and irrigation areas. The proposed approach is based on evaluating local statistical and structural image features, which makes it possible to estimate the noise level, preserve important object boundaries, and improve image quality for further analysis using computer vision and artificial intelligence methods.
-
-![Digital image](https://img.shields.io/badge/Digital_image-374151?style=flat-square) ![mixed noise](https://img.shields.io/badge/mixed_noise-374151?style=flat-square) ![adaptive filter](https://img.shields.io/badge/adaptive_filter-374151?style=flat-square) ![agricultural imagery](https://img.shields.io/badge/agricultural_imagery-374151?style=flat-square) ![irrigation  areas](https://img.shields.io/badge/irrigation__areas-374151?style=flat-square) ![image processing](https://img.shields.io/badge/image_processing-374151?style=flat-square) ![computer vision](https://img.shields.io/badge/computer_vision-374151?style=flat-square) ![artificial intelligence](https://img.shields.io/badge/artificial_intelligence-374151?style=flat-square)  
-<details><summary>BibTeX</summary>
-
-```bibtex
-@article{an_algorithm_for_detecting_and_removing_mixed_noise_in_digital_images_of_agricultural_crops_and_irrigation_areas_based_on_adaptive_mathematical_filters,
-  title={AN ALGORITHM FOR DETECTING AND REMOVING MIXED NOISE IN DIGITAL IMAGES OF AGRICULTURAL CROPS AND IRRIGATION AREAS BASED ON ADAPTIVE MATHEMATICAL FILTERS},
-  author={Rahimjon Qodirov and Rahmatilla Khudoyberdiyev},
-  journal={XXV - Yosh olimlar, magistrantlar va iqtidorli talabalarning ilmiy-amaliy anjumani: "Qishloq va suv xo'jaligining zamonaviy muammolari"},
-  year={2026},
-  url={https://www.rahmatilla.uz/publications/an-algorithm-for-detecting-and-removing-mixed-noise-in-digital-images-of-agricultural-crops-and-irrigation-areas-based-on-adaptive-mathematical-filters}
-}
-```
-</details>
-
-
-#### 📄 [APPLICATION OF PYTHON AND JAVA  LIBRARIES IN BIG DATA TECHNOLOGIES](https://jsrt.innovascience.uz/index.php/jsrt/article/view/1039/870)
-_Sherzod Jovliboyev Erkin o‘g‘li, Rahmatilla Khudoyberdiyev Khudoyberdi o‘g‘li_ · **Journal of Science, Research and Teaching** · `2026`  
-> In recent years, the rapid integration of Artificial Intelligence (AI) technologies into education has expanded the possibilities for automating assessment processes. This article analyzes automated grading methods in AI in Education (AIED), their algorithmic foundations, application areas, and issues related to academic transparency. 
-The study examines supervised learning and natural language processing (NLP) approaches used for evaluating tests, programming assignments, and open-ended text tasks. It also discusses AI-generated text detection and ethical considerations. 
-The results provide scientific and practical recommendations to ensure the effectiveness and fairness of automated assessment systems.
-
-![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-374151?style=flat-square) ![Automated Assessment](https://img.shields.io/badge/Automated_Assessment-374151?style=flat-square) ![AIED](https://img.shields.io/badge/AIED-374151?style=flat-square) ![Auto-Grading](https://img.shields.io/badge/Auto_Grading-374151?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-374151?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-374151?style=flat-square) ![Academic Integrity](https://img.shields.io/badge/Academic_Integrity-374151?style=flat-square) ![AI Detection](https://img.shields.io/badge/AI_Detection-374151?style=flat-square) ![Essay Evaluation](https://img.shields.io/badge/Essay_Evaluation-374151?style=flat-square) ![Programming Assignments](https://img.shields.io/badge/Programming_Assignments-374151?style=flat-square) ![Educational Technology](https://img.shields.io/badge/Educational_Technology-374151?style=flat-square) ![Assessment Accuracy](https://img.shields.io/badge/Assessment_Accuracy-374151?style=flat-square) ![Ethical Issues](https://img.shields.io/badge/Ethical_Issues-374151?style=flat-square) ![GenAI](https://img.shields.io/badge/GenAI-374151?style=flat-square) ![AI in Education](https://img.shields.io/badge/AI_in_Education-374151?style=flat-square)  
-<details><summary>BibTeX</summary>
-
-```bibtex
-@article{application_of_python_and_java_libraries_in_big_data_technologies,
-  title={ APPLICATION OF PYTHON AND JAVA  LIBRARIES IN BIG DATA TECHNOLOGIES},
-  author={Sherzod Jovliboyev Erkin o‘g‘li and Rahmatilla Khudoyberdiyev Khudoyberdi o‘g‘li},
-  journal={Journal of Science, Research and Teaching},
-  year={2026},
-  url={https://www.rahmatilla.uz/publications/application-of-python-and-java-libraries-in-big-data-technologies}
-}
-```
-</details>
-
-
-#### 📄 [AUTOMATED ASSESSMENT METHODS IN EDUCATION SYSTEMS BASED ON ARTIFICIAL INTELLIGENCE](https://mudarrisziyo.uz/index.php/innovatsiya/article/view/3516/3598)
-_Sherzod Jovliboyev Erkin o‘g‘li, Rahmatilla Khudoyberdiyev Khudoyberdi o‘g‘li_ · **FAN, TA'LIM, MADANIYAT VA INNOVATSIYA** · `2026`  
-> In recent years, the rapid integration of Artificial Intelligence (AI) technologies into 
-education has expanded the possibilities for automating assessment processes. This article analyzes automated grading methods in AI in Education (AIED), their algorithmic foundations, application areas, and issues related to academic transparency. 
-The study examines supervised learning and natural language processing (NLP) approaches used for evaluating tests, programming assignments, and open-ended text tasks. It also discusses AI-generated text detection and ethical considerations. 
-The results provide scientific and practical recommendations to ensure the effectiveness and fairness of automated assessment systems.
-
-![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-374151?style=flat-square) ![Automated Assessment](https://img.shields.io/badge/Automated_Assessment-374151?style=flat-square) ![AIED](https://img.shields.io/badge/AIED-374151?style=flat-square) ![Auto-Grading](https://img.shields.io/badge/Auto_Grading-374151?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-374151?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-374151?style=flat-square) ![Academic Integrity](https://img.shields.io/badge/Academic_Integrity-374151?style=flat-square) ![AI Detection](https://img.shields.io/badge/AI_Detection-374151?style=flat-square) ![Essay Evaluation](https://img.shields.io/badge/Essay_Evaluation-374151?style=flat-square) ![Programming Assignments](https://img.shields.io/badge/Programming_Assignments-374151?style=flat-square) ![Educational Technology](https://img.shields.io/badge/Educational_Technology-374151?style=flat-square) ![Assessment Accuracy](https://img.shields.io/badge/Assessment_Accuracy-374151?style=flat-square) ![Ethical Issues](https://img.shields.io/badge/Ethical_Issues-374151?style=flat-square) ![GenAI](https://img.shields.io/badge/GenAI-374151?style=flat-square) ![AI in Education](https://img.shields.io/badge/AI_in_Education-374151?style=flat-square)  
-<details><summary>BibTeX</summary>
-
-```bibtex
-@article{automated_assessment_methods_in_education_systems_based_on_artificial_intelligence,
-  title={AUTOMATED ASSESSMENT METHODS IN EDUCATION SYSTEMS BASED ON ARTIFICIAL INTELLIGENCE},
-  author={Sherzod Jovliboyev Erkin o‘g‘li and Rahmatilla Khudoyberdiyev Khudoyberdi o‘g‘li},
-  journal={FAN, TA'LIM, MADANIYAT VA INNOVATSIYA},
-  year={2026},
-  url={https://www.rahmatilla.uz/publications/automated-assessment-methods-in-education-systems-based-on-artificial-intelligence}
-}
-```
-</details>
-
-
----
-
 ### 📜 Verified Credentials & Certifications
 
 * **[Advanced RAG with Vector Databases and Retrievers](https://www.coursera.org/account/accomplishments/verify/BYSS7Z0J0T70)** — IBM (Oct 2026)
@@ -189,6 +123,25 @@ Focused on advanced topics in computer science including algorithms, big data, d
 **Student, Information Technology** | _Sep 2021 – Jul 2023_  
 Studied advanced mathematics and physics alongside programming fundamentals. Gained a strong foundation in problem-solving, algorithmic thinking, and early back-end development practices.  
 `Physics` `Mathematics` `Programming Fundamentals` `Algorithms`
+
+---
+
+### 📚 Publications & Research
+
+* 📄 **[AN ALGORITHM FOR DETECTING AND REMOVING MIXED NOISE IN DIGITAL IMAGES OF AGRICULTURAL CROPS AND IRRIGATION AREAS BASED ON ADAPTIVE MATHEMATICAL FILTERS](https://phoenixpublication.net/index.php/YRIF/article/view/8939)**
+  _Rahimjon Qodirov, Rahmatilla Khudoyberdiyev_ · **XXV - Yosh olimlar, magistrantlar va iqtidorli talabalarning ilmiy-amaliy anjumani: "Qishloq va suv xo'jaligining zamonaviy muammolari"** · `2026`  
+  > This article discusses the problem of detecting and removing mixed noise in digital images of agricultural crops and irrigation areas. The proposed ap...
+  ![Digital image](https://img.shields.io/badge/Digital_image-374151?style=flat-square) ![mixed noise](https://img.shields.io/badge/mixed_noise-374151?style=flat-square) ![adaptive filter](https://img.shields.io/badge/adaptive_filter-374151?style=flat-square)
+
+* 📄 **[APPLICATION OF PYTHON AND JAVA  LIBRARIES IN BIG DATA TECHNOLOGIES](https://jsrt.innovascience.uz/index.php/jsrt/article/view/1039/870)**
+  _Sherzod Jovliboyev Erkin o‘g‘li, Rahmatilla Khudoyberdiyev Khudoyberdi o‘g‘li_ · **Journal of Science, Research and Teaching** · `2026`  
+  > In recent years, the rapid integration of Artificial Intelligence (AI) technologies into education has expanded the possibilities for automating asses...
+  ![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-374151?style=flat-square) ![Automated Assessment](https://img.shields.io/badge/Automated_Assessment-374151?style=flat-square) ![AIED](https://img.shields.io/badge/AIED-374151?style=flat-square)
+
+* 📄 **[AUTOMATED ASSESSMENT METHODS IN EDUCATION SYSTEMS BASED ON ARTIFICIAL INTELLIGENCE](https://mudarrisziyo.uz/index.php/innovatsiya/article/view/3516/3598)**
+  _Sherzod Jovliboyev Erkin o‘g‘li, Rahmatilla Khudoyberdiyev Khudoyberdi o‘g‘li_ · **FAN, TA'LIM, MADANIYAT VA INNOVATSIYA** · `2026`  
+  > In recent years, the rapid integration of Artificial Intelligence (AI) technologies into education has expanded the possibilities for automating asses...
+  ![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-374151?style=flat-square) ![Automated Assessment](https://img.shields.io/badge/Automated_Assessment-374151?style=flat-square) ![AIED](https://img.shields.io/badge/AIED-374151?style=flat-square)
 
 ---
 

@@ -399,17 +399,14 @@ def generate_publications(publications_data):
         authors = pub.get("authors", "").strip()
         venue = pub.get("venue", "").strip()
         abstract = pub.get("abstract", "").strip()
-        bibtex = pub.get("bibtex", "").strip()
         skills = pub.get("skills", [])
 
         target_url = link
         if not target_url and pdf_url:
             target_url = f"{BASE_URL}{pdf_url}" if pdf_url.startswith("/") else pdf_url
 
-        if target_url:
-            lines.append(f"#### 📄 [{title}]({target_url})")
-        else:
-            lines.append(f"#### 📄 {title}")
+        title_md = f"**[{title}]({target_url})**" if target_url else f"**{title}**"
+        lines.append(f"* 📄 {title_md}")
 
         meta = []
         if authors:
@@ -419,17 +416,17 @@ def generate_publications(publications_data):
         if year:
             meta.append(f"`{year}`")
         if meta:
-            lines.append(" · ".join(meta) + "  ")
+            lines.append("  " + " · ".join(meta) + "  ")
 
         if abstract:
-            lines.append(f"> {abstract}\n")
+            clean_abstract = " ".join(abstract.split())
+            if len(clean_abstract) > 150:
+                clean_abstract = clean_abstract[:150].rstrip(" .,;") + "..."
+            lines.append(f"  > {clean_abstract}")
 
         if skills:
-            badge_list = [get_badge(s) for s in skills]
-            lines.append(" ".join(badge_list) + "  ")
-
-        if bibtex:
-            lines.append("<details><summary>BibTeX</summary>\n\n```bibtex\n" + bibtex.strip() + "\n```\n</details>\n")
+            badge_list = [get_badge(s) for s in skills[:3]]
+            lines.append("  " + " ".join(badge_list))
 
         lines.append("")
 
@@ -510,9 +507,9 @@ def main():
         projects_sec = generate_projects(data.get("projects", []), assets_dir)
         skills_sec = generate_skills(data.get("skills", []))
         exp_sec = generate_experience(data.get("experience", []))
-        pubs_sec = generate_publications(data.get("publications", []))
         certs_sec = generate_certificates(data.get("certificates", []))
         edu_sec = generate_education(data.get("education", []))
+        pubs_sec = generate_publications(data.get("publications", []))
         lang_sec = generate_languages(data.get("languages", []))
         footer_sec = generate_footer(data.get("profile", {}))
 
@@ -521,9 +518,9 @@ def main():
             projects_sec,
             skills_sec,
             exp_sec,
-            pubs_sec,
             certs_sec,
             edu_sec,
+            pubs_sec,
             lang_sec,
             footer_sec
         ]
