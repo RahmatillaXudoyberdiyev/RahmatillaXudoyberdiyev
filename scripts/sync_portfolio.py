@@ -51,7 +51,12 @@ BADGE_MAP = {
     "Gradio": "https://img.shields.io/badge/Gradio-FF7C00?style=flat-square",
     "IBM Watson": "https://img.shields.io/badge/IBM_Watson-052FAD?style=flat-square&logo=ibm&logoColor=white",
     "Kerio Control": "https://img.shields.io/badge/Security-Kerio_Control-0072C6?style=flat-square",
-    "Hikvision": "https://img.shields.io/badge/Security-Hikvision-D32F2F?style=flat-square"
+    "Hikvision": "https://img.shields.io/badge/Security-Hikvision-D32F2F?style=flat-square",
+    "FAISS": "https://img.shields.io/badge/FAISS-008080?style=flat-square",
+    "HNSW": "https://img.shields.io/badge/HNSW-4A148C?style=flat-square",
+    "ChromaDB": "https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square",
+    "Vector Databases": "https://img.shields.io/badge/Vector_Databases-7B1FA2?style=flat-square",
+    "Advanced retrievers": "https://img.shields.io/badge/Advanced_Retrievers-2E7D32?style=flat-square"
 }
 
 def sanitize_slug(name):
@@ -340,10 +345,14 @@ def generate_education(education_data):
         degree = edu.get("degree", "").strip()
         institution = edu.get("institution", "").strip()
         period = edu.get("period", "").strip()
+        grade = edu.get("grade", "").strip()
         description = edu.get("description", "").strip()
 
         lines.append(f"#### 🏛️ {institution}")
-        lines.append(f"**{degree}** | _{period}_  ")
+        subline = f"**{degree}** | _{period}_"
+        if grade:
+            subline += f" · **GPA / Grade:** `{grade}`"
+        lines.append(f"{subline}  ")
         if description:
             lines.append(f"{description}  ")
         skills = edu.get("skills", [])
@@ -360,6 +369,85 @@ def generate_education(education_data):
             institution = edu.get("institution", "").strip()
             period = edu.get("period", "").strip()
             lines.append(f"* **{degree}** — {institution} ({period})")
+        lines.append("")
+        lines.append("</details>")
+        lines.append("")
+
+    lines.append("---")
+    return "\n".join(lines)
+
+def generate_publications(publications_data):
+    if not publications_data:
+        return ""
+
+    valid_pubs = [p for p in publications_data if p.get("title", "").strip()]
+    if not valid_pubs:
+        return ""
+
+    lines = [
+        "### 📚 Publications & Research",
+        ""
+    ]
+    featured_pubs = valid_pubs[:3]
+    remaining_pubs = valid_pubs[3:]
+
+    for pub in featured_pubs:
+        title = pub.get("title", "").strip()
+        link = pub.get("link", "").strip()
+        pdf_url = pub.get("pdfUrl", "").strip()
+        year = pub.get("year", "").strip()
+        authors = pub.get("authors", "").strip()
+        venue = pub.get("venue", "").strip()
+        abstract = pub.get("abstract", "").strip()
+        bibtex = pub.get("bibtex", "").strip()
+        skills = pub.get("skills", [])
+
+        target_url = link
+        if not target_url and pdf_url:
+            target_url = f"{BASE_URL}{pdf_url}" if pdf_url.startswith("/") else pdf_url
+
+        if target_url:
+            lines.append(f"#### 📄 [{title}]({target_url})")
+        else:
+            lines.append(f"#### 📄 {title}")
+
+        meta = []
+        if authors:
+            meta.append(f"_{authors}_")
+        if venue:
+            meta.append(f"**{venue}**")
+        if year:
+            meta.append(f"`{year}`")
+        if meta:
+            lines.append(" · ".join(meta) + "  ")
+
+        if abstract:
+            lines.append(f"> {abstract}\n")
+
+        if skills:
+            badge_list = [get_badge(s) for s in skills]
+            lines.append(" ".join(badge_list) + "  ")
+
+        if bibtex:
+            lines.append("<details><summary>BibTeX</summary>\n\n```bibtex\n" + bibtex.strip() + "\n```\n</details>\n")
+
+        lines.append("")
+
+    if remaining_pubs:
+        lines.append("<details>")
+        lines.append(f"<summary><b>📚 More Publications ({len(remaining_pubs)})</b></summary>")
+        lines.append("")
+        for pub in remaining_pubs:
+            title = pub.get("title", "").strip()
+            link = pub.get("link", "").strip()
+            pdf_url = pub.get("pdfUrl", "").strip()
+            year = pub.get("year", "").strip()
+            authors = pub.get("authors", "").strip()
+            venue = pub.get("venue", "").strip()
+            target_url = link or (f"{BASE_URL}{pdf_url}" if pdf_url.startswith("/") else pdf_url)
+            title_md = f"[{title}]({target_url})" if target_url else f"**{title}**"
+            sub = " · ".join(filter(None, [authors, venue, year]))
+            lines.append(f"* {title_md} ({sub})")
         lines.append("")
         lines.append("</details>")
         lines.append("")
@@ -422,21 +510,24 @@ def main():
         projects_sec = generate_projects(data.get("projects", []), assets_dir)
         skills_sec = generate_skills(data.get("skills", []))
         exp_sec = generate_experience(data.get("experience", []))
+        pubs_sec = generate_publications(data.get("publications", []))
         certs_sec = generate_certificates(data.get("certificates", []))
         edu_sec = generate_education(data.get("education", []))
         lang_sec = generate_languages(data.get("languages", []))
         footer_sec = generate_footer(data.get("profile", {}))
 
-        full_content = "\n\n".join([
+        sections = [
             profile_sec,
             projects_sec,
             skills_sec,
             exp_sec,
+            pubs_sec,
             certs_sec,
             edu_sec,
             lang_sec,
             footer_sec
-        ]) + "\n"
+        ]
+        full_content = "\n\n".join([s for s in sections if s.strip()]) + "\n"
 
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(full_content)

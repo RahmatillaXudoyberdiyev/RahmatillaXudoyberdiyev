@@ -66,7 +66,7 @@ To bring these systems into production, I develop dependable backend services an
 <summary><b>🧩 Additional Skills & Tooling (2 categories)</b></summary>
 
 **Databases & ORM**  
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-374151?style=flat-square) ![HNSW](https://img.shields.io/badge/HNSW-374151?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square) ![HNSW](https://img.shields.io/badge/HNSW-4A148C?style=flat-square)
 
 **Software Development & Tools**  
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Aiogram](https://img.shields.io/badge/Aiogram-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -93,6 +93,13 @@ _Jul 2025 - Jan 2026 · 7 mos · Part-time · On-site · Yangihayot, Tashkent, U
 
 ---
 
+### 📚 Publications & Research
+
+#### 📄 Test
+_Rahmatilla Khudoyberdiyev_ · `2026`  
+
+---
+
 ### 📜 Verified Credentials & Certifications
 
 * **[Advanced RAG with Vector Databases and Retrievers](https://www.coursera.org/account/accomplishments/verify/BYSS7Z0J0T70)** — IBM (Oct 2026)
@@ -115,7 +122,7 @@ _Jul 2025 - Jan 2026 · 7 mos · Part-time · On-site · Yangihayot, Tashkent, U
 ### 🎓 Education
 
 #### 🏛️ TIIAME NRU
-**Bachelor's degree, Artificial Intelligence** | _Sep 2023 – Jul 2027_  
+**Bachelor's degree, Artificial Intelligence** | _Sep 2023 – Jul 2027_ · **GPA / Grade:** `4.83`  
 Focused on advanced topics in computer science including algorithms, big data, data science, machine learning, and neural network foundations.  
 `Python (Programming Language)` `Web Development` `Algorithms` `Data Science` `Machine Learning`
 
