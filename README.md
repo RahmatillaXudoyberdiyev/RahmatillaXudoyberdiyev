@@ -6,7 +6,7 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=RahmatillaXudoyberdiyev&theme=dark)](https://git.io/streak-stats)
 
 📍 **Tashkent, Uzbekistan** | 💼 **Available for new projects**  
-🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/resume.pdf)
+🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume-1792768346630-syf7jc3-6RRZKCEQwfyNntQiWeJKW0D2PmKgMz.pdf)
 
 </div>
 
