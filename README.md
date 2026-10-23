@@ -23,6 +23,7 @@ To bring these systems into production, I develop dependable backend services an
 ### 🌟 Featured Projects
 
 #### 🤖 [Emris AI](https://suniyintellekt.uz) — Agentic AI Workflow `v1.9 BETA • Active`
+_Contributors: Rahmatilla X._  
 * Engineered an autonomous multi-agent AI platform that breaks down complex user prompts into step-by-step milestones, writes code, and automatically reviews and fixes its own bugs before delivery.
 * Built an interactive in-browser code execution sandbox (Python & Node.js) with fault-tolerant routing across Google Gemini, Groq, and Cloudflare AI to ensure fast, uninterrupted performance.
 * Designed a privacy-first, local-storage architecture that syncs generated projects directly to the user's device without requiring accounts or storing sensitive data on external servers.
@@ -32,6 +33,7 @@ To bring these systems into production, I develop dependable backend services an
 <p align="center"><a href="https://suniyintellekt.uz"><img src="assets/emris_ai.png" alt="Emris AI" width="520" /></a></p>
 
 #### 🤖 [Samarqand Invest Kompaniyasi](https://www.saminvestcompany.uz/uz) — Website `Active`
+_Contributors: Rahmatilla X., Hikmatilla X._  
 * Built a responsive full-stack web application using Next.js and Nest.js, featuring 4-language localization (Uzbek Latin/Cyrillic, Russian, English) and accessible theme controls with high-contrast modes and font resizing.
 * Developed an interactive construction fee calculator integrated with Yandex Maps, allowing users to pick map coordinates to automatically calculate regional zoning fees and volume deductions in real time.
 * Engineered modular Nest.js REST APIs with robust request validation, caching, and rate limiting to keep inquiry endpoints secure and deliver sub-100ms response times.
@@ -41,6 +43,7 @@ To bring these systems into production, I develop dependable backend services an
 <p align="center"><a href="https://www.saminvestcompany.uz/uz"><img src="assets/samarqand_invest_kompaniyasi.png" alt="Samarqand Invest Kompaniyasi" width="520" /></a></p>
 
 #### 🤖 [Pancreas Segmentation](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) — Image Segmentation `Active`
+_Contributors: Rahmatilla X., Professor Voxid Fayziyev_  
 * Engineered an automated medical imaging pipeline with OpenCV and NumPy to clean, normalize, and augment 6,800+ abdominal CT slice-mask pairs, eliminating blank slices and caching standardized tensors to maximize training throughput.
 * Developed a ResUNet deep learning segmentation architecture integrated with an EfficientNet-B0 backbone, utilizing a custom hybrid BCE-Dice loss function to tackle extreme foreground-background class imbalance.
 * Achieved a 0.824 Mean Dice score and 0.720 Mean IoU on unseen test CT volumes, calibrating an optimal 0.30 decision threshold to reach a 90th-percentile Dice coefficient of 0.923 for robust pancreas boundary delineation.
@@ -77,19 +80,19 @@ To bring these systems into production, I develop dependable backend services an
 
 ### 💼 Experience
 
-#### 🏢 IT Support Specialist — **Yangi Toshkent Direksiyasi**
+#### 🏢 Software & AI Solutions Specialist — **Yangi Toshkent Direksiyasi**
 _Jun 2026 - Present · Part-time · On-site · Yangi Toshkent, Tashkent, Uzbekistan_  
-* Managed server infrastructure and administered Face ID biometric access systems.
-* Oversaw IVMS camera security operations and surveillance network maintenance.
-* Developed and deployed custom web applications with AI-driven integrations.
-`Kerio Control` `Hikvision`
+* Built and launched internal web tools with AI features to automate team workflows.
+* Worked with GIS mapping data to visualize project locations and city planning details.
+* Managed app servers and data services to ensure stable daily uptime.
+`Web Development` `AI Integration` `GIS Data` `Server Management` `Python` `REST APIs`
 
-#### 🏢 IT Support Specialist — **Yangihayot tuman hokimiyati**
-_Jul 2025 - Jan 2026 · 7 mos · Part-time · On-site · Yangihayot, Tashkent, Uzbekistan_  
-* Provided technical support to government employees, troubleshooting software issues and hardware diagnostics.
-* Managed network operations and secure traffic routing through Kerio Control firewall systems.
-* Overseen FaceID biometric access checkpoints and IVMS camera security infrastructure with Hikvision.
-`Kerio Control` `Hikvision` `Network Security` `Hardware Support` `FaceID Systems`
+#### 🏢 Software & Systems Specialist — **Yangihayot tuman hokimiyati**
+_Jul 2025 - Jan 2026 · Part-time · On-site · Yangihayot, Tashkent, Uzbekistan_  
+* Built scripts to automate daily office tasks and cut down manual work for staff.
+* Managed internal web apps, office databases, and secure network access using Kerio Control.
+* Maintained digital staff login and biometric identity systems across the organization.
+`Process Automation` `Web Applications` `Database Support` `Network Security` `Kerio Control` `Biometric Identity Systems`
 
 ---
 

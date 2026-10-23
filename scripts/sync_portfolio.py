@@ -169,6 +169,11 @@ def generate_projects(projects, assets_dir):
         else:
             lines.append(f"#### 🤖 {title}{type_str}{status_badge}")
 
+        contributors = proj.get("contributors", [])
+        if contributors:
+            contrib_str = ", ".join(contributors)
+            lines.append(f"_Contributors: {contrib_str}_  ")
+
         bullet_points = proj.get("bulletPoints", [])
         for bp in bullet_points:
             lines.append(f"* {bp}")
@@ -193,15 +198,17 @@ def generate_projects(projects, assets_dir):
         lines.append("<details>")
         lines.append(f"<summary><b>📂 More Projects ({len(remaining_projects)})</b></summary>")
         lines.append("")
-        lines.append("| Project | Type | Tech Stack | Link |")
-        lines.append("| :--- | :--- | :--- | :--- |")
+        lines.append("| Project | Type | Tech Stack | Contributors | Link |")
+        lines.append("| :--- | :--- | :--- | :--- | :--- |")
         for proj in remaining_projects:
             title = proj.get("title", "").strip()
             link = proj.get("link", "").strip()
             proj_type = proj.get("type", "Project").strip()
             skills_str = ", ".join(proj.get("skills", []))
+            contribs = proj.get("contributors", [])
+            contrib_str = ", ".join(contribs) if contribs else "—"
             link_md = f"[Open ↗]({link})" if link else "—"
-            lines.append(f"| **{title}** | {proj_type} | {skills_str} | {link_md} |")
+            lines.append(f"| **{title}** | {proj_type} | {skills_str} | {contrib_str} | {link_md} |")
         lines.append("")
         lines.append("</details>")
         lines.append("")
