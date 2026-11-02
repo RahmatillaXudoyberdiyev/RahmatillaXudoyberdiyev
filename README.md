@@ -6,7 +6,7 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=RahmatillaXudoyberdiyev&theme=dark)](https://git.io/streak-stats)
 
 📍 **Tashkent, Uzbekistan** | 💼 **Available for new projects**  
-🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume-1792768346630-syf7jc3-6RRZKCEQwfyNntQiWeJKW0D2PmKgMz.pdf)
+🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume_2-1793610639130-zqhwq75-BBd4TlF8yABIvKPCDga1pOPwwgxOFf.pdf)
 
 </div>
 
@@ -22,7 +22,17 @@ To bring these systems into production, I develop dependable backend services an
 
 ### 🌟 Featured Projects
 
-#### 🤖 [Emris AI](https://suniyintellekt.uz) — Agentic AI Workflow `v1.9 BETA • Active`
+#### 🤖 [Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation](https://www.suniyintellekt.uz/desktop) — Desktop Systems, Agentic AI Workflow `v1.2.1 Beta • Active`
+_Contributors: Rahmatilla X._  
+* Architected an ultra-lightweight desktop AI workstation using Python and React via native Edge WebView2 (pywebview), capping memory under 150 MB RAM with a ~13 MB binary footprint vs. 500 MB+ Electron alternatives.
+* Engineered an autonomous dynamic ReAct multi-agent workflow powered by hybrid BM25/cosine RAG, streaming live tool executions, git-style (+n/-m) diff statistics, and self-healing error diagnostics over Server-Sent Events (SSE).
+* Implemented secure local virtualenv isolation with terminal approval gates, real-time token telemetry across SQLite sessions, and an automated GitHub Actions CI/CD pipeline building Inno Setup Windows installers.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React.js](https://img.shields.io/badge/React_js-374151?style=flat-square) ![Multi-Agent AI Systems](https://img.shields.io/badge/Multi_Agent_AI_Systems-374151?style=flat-square) ![PyWebView](https://img.shields.io/badge/PyWebView-374151?style=flat-square) ![Systems Architecture](https://img.shields.io/badge/Systems_Architecture-374151?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-374151?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-374151?style=flat-square) ![CI/CD & PyInstaller](https://img.shields.io/badge/CI_CD___PyInstaller-374151?style=flat-square)
+
+<p align="center"><a href="https://www.suniyintellekt.uz/desktop"><img src="assets/emris_ai_desktop_autonomous_multi-agent_engineering_workstation.png" alt="Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation" width="520" /></a></p>
+
+#### 🤖 [Emris AI](https://suniyintellekt.uz) — Agentic AI Workflow, Website `v1.9 BETA • Active`
 _Contributors: Rahmatilla X._  
 * Engineered an autonomous multi-agent AI platform that breaks down complex user prompts into step-by-step milestones, writes code, and automatically reviews and fixes its own bugs before delivery.
 * Built an interactive in-browser code execution sandbox (Python & Node.js) with fault-tolerant routing across Google Gemini, Groq, and Cloudflare AI to ensure fast, uninterrupted performance.
@@ -42,15 +52,14 @@ _Contributors: Rahmatilla X., Hikmatilla X._
 
 <p align="center"><a href="https://www.saminvestcompany.uz/uz"><img src="assets/samarqand_invest_kompaniyasi.png" alt="Samarqand Invest Kompaniyasi" width="520" /></a></p>
 
-#### 🤖 [Pancreas Segmentation](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) — Image Segmentation `Active`
-_Contributors: Rahmatilla X., Professor Voxid Fayziyev_  
-* Engineered an automated medical imaging pipeline with OpenCV and NumPy to clean, normalize, and augment 6,800+ abdominal CT slice-mask pairs, eliminating blank slices and caching standardized tensors to maximize training throughput.
-* Developed a ResUNet deep learning segmentation architecture integrated with an EfficientNet-B0 backbone, utilizing a custom hybrid BCE-Dice loss function to tackle extreme foreground-background class imbalance.
-* Achieved a 0.824 Mean Dice score and 0.720 Mean IoU on unseen test CT volumes, calibrating an optimal 0.30 decision threshold to reach a 90th-percentile Dice coefficient of 0.923 for robust pancreas boundary delineation.
+<details>
+<summary><b>📂 More Projects (1)</b></summary>
 
-![Image Segmentation](https://img.shields.io/badge/Computer_Vision-Image_Segmentation-5C3EE8?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+| Project | Type | Tech Stack | Contributors | Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pancreas Segmentation** | Image Segmentation | Image Segmentation, OpenCV, Tensorflow | Rahmatilla X., Professor Voxid Fayziyev | [Open ↗](https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation) |
 
-<p align="center"><a href="https://www.kaggle.com/code/rahmatillauz/pancrease-segmentation"><img src="assets/pancreas_segmentation.png" alt="Pancreas Segmentation" width="520" /></a></p>
+</details>
 
 ---
 
