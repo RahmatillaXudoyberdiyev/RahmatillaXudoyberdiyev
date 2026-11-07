@@ -22,7 +22,7 @@ To bring these systems into production, I develop dependable backend services an
 
 ### 🌟 Featured Projects
 
-#### 🤖 [Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation](https://www.suniyintellekt.uz/desktop) — Desktop Systems, Agentic AI Workflow `v1.2.1 Beta • Active`
+#### 🤖 [Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation](https://www.suniyintellekt.uz/desktop) — Desktop Systems, Agentic AI Workflow `v1.2.x Beta • Active`
 _Contributors: Rahmatilla X._  
 * Architected an ultra-lightweight desktop AI workstation using Python and React via native Edge WebView2 (pywebview), capping memory under 150 MB RAM with a ~13 MB binary footprint vs. 500 MB+ Electron alternatives.
 * Engineered an autonomous dynamic ReAct multi-agent workflow powered by hybrid BM25/cosine RAG, streaming live tool executions, git-style (+n/-m) diff statistics, and self-healing error diagnostics over Server-Sent Events (SSE).
@@ -32,7 +32,7 @@ _Contributors: Rahmatilla X._
 
 <p align="center"><a href="https://www.suniyintellekt.uz/desktop"><img src="assets/emris_ai_desktop_autonomous_multi-agent_engineering_workstation.png" alt="Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation" width="520" /></a></p>
 
-#### 🤖 [Emris AI](https://suniyintellekt.uz) — Agentic AI Workflow, Website `v1.9 BETA • Active`
+#### 🤖 [Emris AI](https://suniyintellekt.uz) — Agentic AI Workflow, Website `v1.12.x BETA • Active`
 _Contributors: Rahmatilla X._  
 * Engineered an autonomous multi-agent AI platform that breaks down complex user prompts into step-by-step milestones, writes code, and automatically reviews and fixes its own bugs before delivery.
 * Built an interactive in-browser code execution sandbox (Python & Node.js) with fault-tolerant routing across Google Gemini, Groq, and Cloudflare AI to ensure fast, uninterrupted performance.
