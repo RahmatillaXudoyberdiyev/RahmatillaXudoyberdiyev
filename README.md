@@ -6,7 +6,7 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=RahmatillaXudoyberdiyev&theme=dark)](https://git.io/streak-stats)
 
 📍 **Tashkent, Uzbekistan** | 💼 **Available for new projects**  
-🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume_2-1793610639130-zqhwq75-BBd4TlF8yABIvKPCDga1pOPwwgxOFf.pdf)
+🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume_3-1794454171330-6q3pmtv-mUVhg4S6BuVxTh65uOnu1UAg2v8lh0.pdf)
 
 </div>
 
@@ -139,7 +139,7 @@ Studied advanced mathematics and physics alongside programming fundamentals. Gai
 
 ### 📚 Publications & Research
 
-#### 📄 [AN ALGORITHM FOR DETECTING AND REMOVING MIXED NOISE IN DIGITAL IMAGES OF AGRICULTURAL CROPS AND IRRIGATION AREAS BASED ON ADAPTIVE MATHEMATICAL FILTERS](https://phoenixpublication.net/index.php/YRIF/article/view/8939)
+#### 📄 [AN ALGORITHM FOR DETECTING AND REMOVING MIXED NOISE IN DIGITAL IMAGES OF AGRICULTURAL CROPS AND IRRIGATION AREAS BASED ON ADAPTIVE MATHEMATICAL FILTERS](https://zenodo.org/records/21293939)
 _Rahimjon Qodirov, Rahmatilla Khudoyberdiyev_ · **XXV - Yosh olimlar, magistrantlar va iqtidorli talabalarning ilmiy-amaliy anjumani: "Qishloq va suv xo'jaligining zamonaviy muammolari"** · `2026`  
 > This article discusses the problem of detecting and removing mixed noise in digital images of agricultural crops and irrigation areas. The proposed approach is...
 
