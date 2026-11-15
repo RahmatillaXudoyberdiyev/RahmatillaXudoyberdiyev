@@ -22,7 +22,7 @@ To bring these systems into production, I develop dependable backend services an
 
 ### 🌟 Featured Projects
 
-#### 🤖 [Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation](https://www.suniyintellekt.uz/desktop) — Desktop Systems, Agentic AI Workflow `v1.2.x Beta • Active`
+#### 🤖 [Emris AI Desktop — Autonomous Multi-Agent Engineering Workstation](https://www.suniyintellekt.uz/desktop) — Desktop Systems, Agentic AI Workflow `v1.3.x Beta • Active`
 _Contributors: Rahmatilla X._  
 * Architected an ultra-lightweight desktop AI workstation using Python and React via native Edge WebView2 (pywebview), capping memory under 150 MB RAM with a ~13 MB binary footprint vs. 500 MB+ Electron alternatives.
 * Engineered an autonomous dynamic ReAct multi-agent workflow powered by hybrid BM25/cosine RAG, streaming live tool executions, git-style (+n/-m) diff statistics, and self-healing error diagnostics over Server-Sent Events (SSE).
