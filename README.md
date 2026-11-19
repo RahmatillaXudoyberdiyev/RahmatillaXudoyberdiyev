@@ -6,7 +6,7 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=RahmatillaXudoyberdiyev&theme=dark)](https://git.io/streak-stats)
 
 📍 **Tashkent, Uzbekistan** | 💼 **Available for new projects**  
-🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume_3-1794454171330-6q3pmtv-mUVhg4S6BuVxTh65uOnu1UAg2v8lh0.pdf)
+🌐 [rahmatilla.uz](https://www.rahmatilla.uz) • 💬 [Telegram](https://t.me/rahmatilla_uz) • 💼 [LinkedIn](https://www.linkedin.com/in/rahmatilla-xudoyberdiyev) • ✉️ [Email](mailto:xudoyberdiyevrahmatilla@gmail.com) • 📄 [Resume / CV](https://www.rahmatilla.uz/api/media/view?pathname=Rahmatilla_Xudoyberdiyev_-_Resume_5-1795089479785-w36tuxd-KIqEQwLvZOWxUkr0WrKlHkHKaHwYs7.pdf)
 
 </div>
 
@@ -90,14 +90,14 @@ _Contributors: Rahmatilla X., Hikmatilla X._
 ### 💼 Experience
 
 #### 🏢 Software & AI Solutions Specialist — **Yangi Toshkent Direksiyasi**
-_Jun 2026 - Present · Part-time · On-site · Yangi Toshkent, Tashkent, Uzbekistan_  
+_Jan 2026 - Present · Part-time · On-site · Yangi Toshkent, Tashkent, Uzbekistan_  
 * Built and launched internal web tools with AI features to automate team workflows.
 * Worked with GIS mapping data to visualize project locations and city planning details.
 * Managed app servers and data services to ensure stable daily uptime.
 `Web Development` `AI Integration` `GIS Data` `Server Management` `Python` `REST APIs`
 
 #### 🏢 Software & Systems Specialist — **Yangihayot tuman hokimiyati**
-_Jul 2025 - Jan 2026 · Part-time · On-site · Yangihayot, Tashkent, Uzbekistan_  
+_Jul 2025 - Dec 2025 · Part-time · On-site · Yangihayot, Tashkent, Uzbekistan_  
 * Built scripts to automate daily office tasks and cut down manual work for staff.
 * Managed internal web apps, office databases, and secure network access using Kerio Control.
 * Maintained digital staff login and biometric identity systems across the organization.
